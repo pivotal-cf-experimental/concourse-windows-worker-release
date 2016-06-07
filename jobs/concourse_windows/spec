@@ -1,0 +1,25 @@
+---
+name: concourse_windows
+description: "Concourse worker for Windows"
+
+templates:
+  concourse_windows.ps1: bin/concourse_windows.ps1
+  tsa-public-key.pub: bin/tsa-public-key.pub
+  tsa-worker-private-key: bin/tsa-worker-private-key
+
+packages:
+  - concourse_windows_worker
+
+properties:
+  concourse_windows.work-dir:
+    description: "Specifies where container data should be placed."
+    default: "C:\\var\\vcap\\packages\\concourse\\worker"
+  concourse_windows.tsa-host:
+    description: "Refers to wherever your TSA node is listening, by default on port 2222."
+    default: 2222
+  concourse_windows.tsa-public-key:
+    description: "Used to ensure we're connecting to the correct TSA."
+    default: []
+  concourse_windows.tsa-worker-private-key:
+    description: "Specifies the key to use when authenticating to the TSA."
+    default: []

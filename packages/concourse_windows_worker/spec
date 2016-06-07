@@ -1,0 +1,7 @@
+---
+name: concourse_windows_worker
+
+dependencies: []
+
+files:
+- concourse_windows_worker/concourse_windows_amd64.zip
