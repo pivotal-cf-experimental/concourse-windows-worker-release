@@ -26,3 +26,6 @@ properties:
   concourse_windows.bind_ip:
     description: "IP address on which to listen for the Garden server."
     default: 127.0.0.1
+  concourse_windows.baggageclaim_bind_ip:
+    description: "IP address on which to listen for API traffic."
+    default: 127.0.0.1
