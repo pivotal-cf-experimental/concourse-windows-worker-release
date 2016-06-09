@@ -1,5 +1,6 @@
-C:\var\vcap\packages\concourse_windows\concourse_windows_amd64.exe `
-    --work-dir <%= concourse_windows.work-dir %> `
-    --tsa-host <%= concourse_windows.tsa-host %> `
-    --tsa-public-key <%= concourse_windows.tsa-public-key %> `
-    --tsa-worker-private-key <%= concourse_windows.tsa-worker-private-key %>
+C:\var\vcap\packages\concourse_windows\concourse_windows_amd64.exe worker `
+    /work-dir <%= p("concourse_windows.work_dir") %> `
+    /tsa-host <%= p("concourse_windows.tsa_host") %> `
+    /tsa-public-key C:\var\vcap\jobs\concourse_windows\bin\tsa-public-key.pub `
+    /tsa-worker-private-key C:\var\vcap\jobs\concourse_windows\bin\tsa-worker-private-key `
+    /bind-ip <%= p("concourse_windows.bind_ip") %>

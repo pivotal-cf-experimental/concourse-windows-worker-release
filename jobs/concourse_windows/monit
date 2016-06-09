@@ -3,7 +3,7 @@
     {
       "name": "concourse_windows",
       "executable": "PowerShell.exe",
-      "args": ["C:\\var\\vcap\\packages\\concourse_windows\\bin\\concourse_windows.ps1"]
+      "args": ["C:\\var\\vcap\\jobs\\concourse_windows\\bin\\concourse_windows.ps1"]
     }
   ]
 }

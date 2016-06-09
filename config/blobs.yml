@@ -1,0 +1,5 @@
+---
+concourse_windows/concourse_windows_amd64.zip:
+  object_id: 1c95a5ea-11f3-4de8-9643-e8494ddfdaa2
+  sha: 486704181f0aef4d72bc20d1551b3e1c54b2879d
+  size: 21150508
