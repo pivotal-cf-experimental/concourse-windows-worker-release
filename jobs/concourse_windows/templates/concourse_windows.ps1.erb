@@ -4,4 +4,5 @@ C:\var\vcap\packages\concourse_windows\concourse_windows_amd64.exe worker `
     /tsa-public-key C:\var\vcap\jobs\concourse_windows\bin\tsa-public-key.pub `
     /tsa-worker-private-key C:\var\vcap\jobs\concourse_windows\bin\tsa-worker-private-key `
     /bind-ip <%= p("concourse_windows.bind_ip") %> `
+    /tag <%= p("concourse_windows.tag") %> `
     /baggageclaim-bind-ip <%= p("concourse_windows.baggageclaim_bind_ip") %>

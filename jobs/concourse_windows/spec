@@ -15,8 +15,8 @@ properties:
     description: "Specifies where container data should be placed."
     default: "C:\\var\\vcap\\data\\concourse_windows"
   concourse_windows.tsa_host:
-    description: "Refers to wherever your TSA node is listening, by default on port 2222."
-    default: 2222
+    description: "TSA host to forward the worker through"
+    default: 127.0.0.1
   concourse_windows.tsa_public_key:
     description: "Used to ensure we're connecting to the correct TSA."
     default: []
@@ -29,3 +29,6 @@ properties:
   concourse_windows.baggageclaim_bind_ip:
     description: "IP address on which to listen for API traffic."
     default: 127.0.0.1
+  concourse_windows.tag:
+    description: "A tag to set for the worker during registration."
+    default: windows
