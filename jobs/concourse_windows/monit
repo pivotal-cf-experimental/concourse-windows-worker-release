@@ -3,7 +3,7 @@
     {
       "name": "concourse_windows",
       "executable": "powerShell",
-      "args": ["C:\\var\\vcap\\jobs\\concourse_windows\\bin\\concourse_windows.ps1"]
+      "args": ["-ExecutionPolicy","Bypass","-File","C:\\var\\vcap\\jobs\\concourse_windows\\bin\\concourse_windows.ps1"]
     }
   ]
 }
