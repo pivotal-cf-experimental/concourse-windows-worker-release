@@ -1,5 +1,5 @@
 ---
 concourse_windows/concourse_windows_amd64.exe:
-  object_id: ba00c0ed-b10b-4c4d-851b-d708af503add
-  sha: b44b32c53ed23d04d77d4bb8b3800ea535cb19e8
-  size: 42963968
+  object_id: 177376f6-4907-45ba-be1f-7914124b49f6
+  sha: 2bf177c8a085d1752209b681395dd1870389c979
+  size: 21740032
