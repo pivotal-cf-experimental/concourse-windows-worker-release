@@ -1,1 +1,3 @@
-cp concourse_windows/concourse_windows_amd64.exe $env:BOSH_INSTALL_TARGET
+$src=(Get-ChildItem "concourse_windows/concourse_windows_amd64-*.exe").FullName
+$dest = (Join-Path $env:BOSH_INSTALL_TARGET "concourse_windows_amd64.exe")
+cp $src $dest

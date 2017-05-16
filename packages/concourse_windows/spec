@@ -4,4 +4,4 @@ name: concourse_windows
 dependencies: []
 
 files:
-- concourse_windows/concourse_windows_amd64.exe
+- concourse_windows/concourse_windows_amd64-*.exe
