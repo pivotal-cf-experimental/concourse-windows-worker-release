@@ -26,6 +26,9 @@ properties:
   concourse_windows.team:
     description: "Specifies the team this worker will be assigned to."
     default: ""
+  concourse_windows.tags:
+    description: "Specifies the tags this worker will be assigned."
+    default: []
   concourse_windows.bind_ip:
     description: "IP address on which to listen for the Garden server."
     default: 127.0.0.1
