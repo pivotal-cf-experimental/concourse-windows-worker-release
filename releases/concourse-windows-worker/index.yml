@@ -5,4 +5,6 @@ builds:
     version: 3.1.1
   f49390f9-31dd-401f-7a53-33b6f689b9ff:
     version: 3.0.1
+  fc8dc5f0-16d8-4612-4492-9aaff7fdee53:
+    version: 3.2.1
 format-version: "2"
