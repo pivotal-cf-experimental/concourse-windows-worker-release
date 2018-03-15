@@ -10,16 +10,19 @@ templates:
 packages:
   - concourse_windows
 
+consumes:
+  - name: tsa
+    type: tsa
+    optional: true
+
 properties:
   concourse_windows.work_dir:
     description: "Specifies where container data should be placed."
     default: "C:\\var\\vcap\\data\\concourse_windows"
   concourse_windows.tsa_host:
     description: "TSA host to forward the worker through"
-    default: 127.0.0.1
   concourse_windows.tsa_public_key:
     description: "Used to ensure we're connecting to the correct TSA."
-    default: []
   concourse_windows.tsa_worker_private_key:
     description: "Specifies the key to use when authenticating to the TSA."
     default: []
