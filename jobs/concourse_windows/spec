@@ -20,7 +20,7 @@ properties:
     description: "Specifies where container data should be placed."
     default: "C:\\var\\vcap\\data\\concourse_windows"
   concourse_windows.tsa_host:
-    description: "TSA host to forward the worker through"
+    description: "TSA host address to forward the worker through. Value must be of the format <host:port>"
   concourse_windows.tsa_public_key:
     description: "Used to ensure we're connecting to the correct TSA."
   concourse_windows.tsa_worker_private_key:
