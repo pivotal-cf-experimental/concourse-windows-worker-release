@@ -1,4 +1,4 @@
-concourse_windows/concourse_windows_amd64-3.10.0.exe:
-  size: 72206336
-  object_id: 29c6e43a-9f79-4c62-6885-29d393f2eff3
-  sha: addf944fe657c62c943749e2e030e3bb51169816
+concourse_windows/concourse_windows_amd64-3.11.0.exe:
+  size: 73010688
+  object_id: f8db6e97-ba7b-45d2-5230-610ef9a1bd0a
+  sha: 173009dc2d9a84722edde67f491ad013a06dd4fa
