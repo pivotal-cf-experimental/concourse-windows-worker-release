@@ -1,0 +1,19 @@
+name: concourse-windows-worker
+version: 3.14.0.1
+commit_hash: cc7e08b
+uncommitted_changes: false
+jobs:
+- name: concourse_windows
+  version: f9eec01681ef3471dc33dedf92268cce85e2c636
+  fingerprint: f9eec01681ef3471dc33dedf92268cce85e2c636
+  sha1: 281bc4efd0ac710261f227d465aae697b91e5f03
+packages:
+- name: concourse_windows
+  version: 42186f98721574ced14993aa79535ca6da8c99f6
+  fingerprint: 42186f98721574ced14993aa79535ca6da8c99f6
+  sha1: 21ec77764a906da97c96a8b1c54374285b80ab3f
+  dependencies: []
+license:
+  version: 9c0d065296a713145d02d4684864a3ba1fcd278d
+  fingerprint: 9c0d065296a713145d02d4684864a3ba1fcd278d
+  sha1: d67ef4e63bd816e7a340afc7db184826c404ce9b
